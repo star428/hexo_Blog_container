@@ -17,7 +17,6 @@ tags: [hexo]
 - **_下载必须项_**
 - **_hexo 文件介绍_**
 - **_使用 github 迁移_**
-- **_相关文件修改_**
 
 ### 下载必须项
 
@@ -58,3 +57,15 @@ tags: [hexo]
 ```bash
 git clone git@github.com:star428/hexo_Blog_container.git
 ```
+
+结束，此时已经迁移完毕，使用如下语句进行初始化：
+
+```bash
+hexo clean // 清除生成的网页
+hexo g     // 重新生成hexo网页
+hexo s     // 在本地预览网页
+hexo d     // 推送网页到yourName.github.io上去
+```
+
+最终网页的展示（也不用展示了所见即所得哈哈哈哈哈）
+over，下一篇文章见~
